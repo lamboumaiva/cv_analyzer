@@ -1,0 +1,16 @@
+Job Title: Python Backend Developer
+
+We are looking for a skilled backend developer with experience in Python, Django, REST API design, and database optimization.
+
+Key Responsibilities:
+- Develop and maintain RESTful APIs.
+- Optimize SQL queries for performance.
+- Collaborate with frontend developers and product team.
+- Ensure code quality with testing and CI/CD pipelines.
+
+Required Skills:
+- Strong Python and Django knowledge
+- Experience with REST APIs
+- Database optimization (PostgreSQL or MySQL)
+- Git version control
+- Problem-solving and teamwork

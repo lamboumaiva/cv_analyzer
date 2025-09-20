@@ -1,0 +1,135 @@
+<!-- templates/cv_template.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ cv.sections.header.name }} - CV</title>
+    {{ inline_css | safe }}
+    <style>
+      body { font-family: Arial, sans-serif; margin: 40px; color: #333; }
+      header { text-align: center; margin-bottom: 30px; }
+      h1 { font-size: 28px; margin-bottom: 5px; }
+            @media print {
+                @page {
+                    margin-top: 25mm;
+                    margin-bottom: 25mm;
+                    margin-left: 15mm;
+                    margin-right: 15mm;
+                }
+                body {
+                    margin: 0;
+                }
+            }
+      h2 { font-size: 20px; border-bottom: 1px solid #ccc; padding-bottom: 3px; margin-top: 40px; margin-bottom: 15px; }
+      h3 { margin: 10px 0 5px 0; font-size: 16px; }
+      section { margin-bottom: 35px; }
+            .job, .edu { margin-bottom: 18px; padding: 12px 15px; background: #f8f8f8; border-radius: 8px; box-shadow: 0 1px 3px #eee; }
+            ul { padding-left: 22px; margin-top: 4px; margin-bottom: 4px; }
+            .skills-list li { margin-bottom: 2px; }
+            .achievements-list li { margin-bottom: 1px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>{{ cv.sections.header.name }}</h1>
+        <p>{{ cv.sections.header.title }}</p>
+        <p>
+            {% if cv.sections.header.contact.email %}Email : {{ cv.sections.header.contact.email }}{% endif %}
+            {% if cv.sections.header.contact.phone %} | Téléphone : {{ cv.sections.header.contact.phone }}{% endif %}
+            {% if cv.sections.header.address %} | Adresse : {{ cv.sections.header.address }}{% endif %}
+        </p>
+    </header>
+
+    {% if cv.sections.summary.professional_summary %}
+    <section>
+        <h2>Profil</h2>
+        <p>{{ cv.sections.summary.professional_summary }}</p>
+    </section>
+    {% endif %}
+
+    {% if cv.sections.skills %}
+    <section>
+        <h2>Compétences</h2>
+        <ul class="skills-list">
+        {% for skill in cv.sections.skills.technical_skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+        {% for skill in cv.sections.skills.soft_skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+        {% for lang in cv.sections.skills.languages %}
+            <li>Langue : {{ lang }}</li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+
+    {% if cv.sections.experience.work_experience %}
+    <section>
+        <h2>Expériences professionnelles</h2>
+        {% for job in cv.sections.experience.work_experience %}
+        <div class="job">
+            <h3>{{ job.position }}{% if job.company %} - {{ job.company }}{% endif %}</h3>
+            {% if job.start_date or job.end_date %}
+            <p><em>
+              {% if job.start_date %}{{ job.start_date }}{% endif %}
+              {% if job.start_date and job.end_date %} - {% endif %}
+              {% if job.end_date %}{{ job.end_date }}{% endif %}
+            </em></p>
+            {% endif %}
+            {% if job.description %}<p>{{ job.description }}</p>{% endif %}
+            {% if job.achievements and job.achievements|length > 0 %}
+            <ul class="achievements-list">
+                {% for ach in job.achievements %}
+                <li>{{ ach }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if cv.sections.education.degrees %}
+    <section>
+        <h2>Formations</h2>
+        {% for edu in cv.sections.education.degrees %}
+        <div class="edu">
+            <h3>
+                {{ edu.degree }}
+                {% if edu.field_of_study and edu.field_of_study not in edu.degree %}
+                    - {{ edu.field_of_study }}
+                {% endif %}
+            </h3>
+            {% if edu.start_date or edu.end_date %}
+            <p><em>
+              {% if edu.start_date %}{{ edu.start_date }}{% endif %}
+              {% if edu.start_date and edu.end_date %} - {% endif %}
+              {% if edu.end_date %}{{ edu.end_date }}{% endif %}
+            </em></p>
+            {% endif %}
+            {% if edu.description %}<p>{{ edu.description }}</p>{% endif %}
+            {% if edu.details and edu.details|length > 0 %}
+            <ul class="achievements-list">
+                {% for detail in edu.details %}
+                <li>{{ detail }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if cv.sections.certifications.certifications %}
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+        {% for cert in cv.sections.certifications.certifications %}
+            <li>{{ cert }}</li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+</body>
+</html>

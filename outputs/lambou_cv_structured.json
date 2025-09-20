@@ -1,0 +1,135 @@
+{
+  "cv_language": "fr",
+  "cv_template": "default-style",
+  "cv_order_type": [
+    "student",
+    "professional"
+  ],
+  "section_order": [
+    "header",
+    "summary",
+    "skills",
+    "experience",
+    "education",
+    "certifications"
+  ],
+  "sections": {
+    "header": {
+      "name": "LAMBOU TIAYO CORECHE MAIVA",
+      "title": "ING DES TRAVAUX EN GENIE LOGICIEL",
+      "address": "Bafoussam cameroun",
+      "contact": {
+        "email": "lambou.maiva2018@gmail.com",
+        "website": "",
+        "phone": "+237 673616830",
+        "linkedin": ""
+      },
+      "comment": "Cette section présente les informations personnelles et les contacts du candidat."
+    },
+    "summary": {
+      "professional_summary": "Développeuse fullstack diplômée en Génie Logiciel, je dispose d'une expertise technique complète en développement frontend, backend et gestion de bases de données. Maîtrisant les technologies web modernes, je suis prête à contribuer au développement d'applications au sein d'une équipe technique.",
+      "comment": "Résumé professionnel du candidat, ses objectifs et sa valeur ajoutée."
+    },
+    "skills": {
+      "technical_skills": [
+        "Java",
+        "PHP",
+        "Visual basic",
+        "Python",
+        "Javascript",
+        "Flutter",
+        "Bootstrap",
+        "Django",
+        "HTML",
+        "CSS",
+        "SQL",
+        "SQLite",
+        "MySQL",
+        "PostgreSQL",
+        "Oracle",
+        "Photoshop",
+        "Canva",
+        "PosterMyWall"
+      ],
+      "soft_skills": [
+        "Travail en équipe",
+        "Design graphique",
+        "Animation d'ateliers de formation"
+      ],
+      "languages": [
+        "Français (Courant)",
+        "Anglais (Intermédiaire)"
+      ],
+      "comment": "Compétences techniques, soft skills et langues maîtrisées."
+    },
+    "experience": {
+      "work_experience": [
+        {
+          "company": "Cabinet NTEE,LTD",
+          "position": "Stage",
+          "start_date": "Février 2025",
+          "end_date": "Mai 2025",
+          "current": false,
+          "description": "Développement d'une application d'une bibliothèque d'achat et de vente de livre utilisant MySQL, HTML, CSS et DJANGO. Travail en équipe sur la mise en place d'un réseau social pour étudiants utilisant SQLite, HTML, CSS et DJANGO.",
+          "achievements": [
+            "Renforcement de mes compétences en design graphique à travers la conception des flyers, cartes de visite et bannières pour l'entreprise",
+            "Animation d'un atelier de formation des enfants sur la suite Office (Word, Excel, PowerPoint) et sur Photoshop"
+          ],
+          "technologies": [
+            "Django",
+            "MySQL",
+            "SQLite",
+            "HTML",
+            "CSS",
+            "Python"
+          ]
+        },
+        {
+          "company": "ARBC SARL",
+          "position": "Stage",
+          "start_date": "Juin 2023",
+          "end_date": "Septembre 2023",
+          "current": false,
+          "description": "Développement d'une application de location immobilière utilisant HTML, CSS, PHP et BOOTSTRAP.",
+          "achievements": [
+            "Amélioration de mes compétences en design graphique grâce à Adobe Photoshop"
+          ],
+          "technologies": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "Bootstrap"
+          ]
+        }
+      ],
+      "comment": "Expériences professionnelles avec détails des postes et réalisations."
+    },
+    "education": {
+      "degrees": [
+        {
+          "institution": "Ecole de Technologie | IUES/INSAM",
+          "degree": "Licence en Genie Logiciel",
+          "field_of_study": "Génie Logiciel",
+          "start_date": "2024",
+          "end_date": "2025",
+          "gpa": "",
+          "description": "Développement d'un système automatisé en Python intégrant l'intelligence artificielle pour l'analyse de CV : extraction automatique des informations depuis des fichiers PDF/Word, génération de suggestions d'amélioration basées sur une description de poste, traitement des données au format JSON et reconversion automatique en PDF optimisé. Amélioration des compétences algorithmiques, de programmation et d'analyse."
+        },
+        {
+          "institution": "Ecole de Technologie | IUES/INSAM",
+          "degree": "BTS en Genie Logiciel",
+          "field_of_study": "Génie Logiciel",
+          "start_date": "2023",
+          "end_date": "2024",
+          "gpa": "",
+          "description": "Développement frontend responsive (HTML5, CSS3) et backend PHP. Intégration de bases de données SQL pour la gestion et l'analyse de données. Réalisation d'applications CRUD en Java et Visual Basic pour la gestion des étudiants."
+        }
+      ],
+      "comment": "Formation académique et diplômes obtenus."
+    },
+    "certifications": {
+      "certifications": [],
+      "comment": "Certifications professionnelles et accréditations."
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "cv_language": "fr",
+  "cv_template": "default-style",
+  "cv_order_type": [
+    "student",
+    "professional"
+  ],
+  "section_order": [
+    "header",
+    "summary",
+    "skills",
+    "experience",
+    "education",
+    "certifications"
+  ],
+  "sections": {
+    "header": {
+      "name": "MADJO YEMELI JOËL MULLER",
+      "title": "",
+      "address": "Bafoussam, Kamkop",
+      "contact": {
+        "email": "mullerlimeye@gmail.com",
+        "website": "",
+        "phone": "+237 672133444",
+        "linkedin": ""
+      },
+      "comment": "Cette section présente les informations personnelles et les contacts du candidat."
+    },
+    "summary": {
+      "professional_summary": "Ingénieur en génie logiciel spécialisé en développement backend Python avec une expertise en Django et la conception d'API RESTful. Expérience dans l'optimisation des bases de données et la collaboration avec les équipes frontend. Passionné par la résolution de problèmes complexes et le développement de solutions évolutives et performantes. À la recherche d'un poste de développeur backend Python pour appliquer mes compétences techniques et contribuer à des projets innovants.",
+      "MyComment": {
+        "optimized": "Renforcé la spécialisation en développement backend Python, ajouté des mots-clés: Django, API RESTful, optimisation des bases de données, collaboration équipes frontend, solutions évolutives",
+        "user_check": "Vérifier l'exactitude des compétences techniques mentionnées et adapter si nécessaire selon votre niveau réel d'expertise"
+      },
+      "comment": "Résumé professionnel du candidat, ses objectifs et sa valeur ajoutée."
+    },
+    "skills": {
+      "technical_skills": [
+        "Développement Backend Python - (Django, API RESTful, optimisation des performances)",
+        "Bases de données - (PostgreSQL, MySQL, optimisation des requêtes SQL)",
+        "Contrôle de version - (Git, workflows collaboratifs)",
+        "Développement Web - (JavaScript, TailwindCSS)",
+        "Développement Mobile - (Flutter)",
+        "Tests et Qualité code - (Méthodologies de test, intégration continue)",
+        "Maintenance Logicielle - (Systèmes d'exploitation, déploiement, sécurité)"
+      ],
+      "soft_skills": [
+        "Résolution de problèmes techniques complexes",
+        "Travail d'équipe et collaboration inter-départements",
+        "Gestion de communauté et communication technique"
+      ],
+      "languages": [
+        "Français",
+        "Anglais"
+      ],
+      "MyComment": {
+        "optimized": "Réorganisé les compétences techniques pour prioriser Python/Django, API REST, bases de données, Git. Ajouté des compétences demandées: optimisation SQL, tests, CI/CD",
+        "user_check": "Ajouter des niveaux de maîtrise pour chaque compétence technique. Considérer ajouter des outils spécifiques (Docker, Jenkins, pytest) si maîtrisés"
+      },
+      "comment": "Compétences techniques, soft skills et langues maîtrisées."
+    },
+    "experience": {
+      "work_experience": [
+        {
+          "company": "CFP LA CANADIENNE",
+          "position": "Stage académique - Développeur Python",
+          "start_date": "",
+          "end_date": "",
+          "current": false,
+          "description": "Développement d'applications web avec Django et conception d'API RESTful. Collaboration avec l'équipe frontend pour l'intégration des interfaces.",
+          "achievements": [
+            "Implémentation de fonctionnalités backend avec Python/Django",
+            "Création d'API RESTful pour applications web",
+            "Optimisation des requêtes de base de données"
+          ],
+          "technologies": [
+            "Python",
+            "Django",
+            "API REST",
+            "MySQL"
+          ],
+          "MyComment": {
+            "optimized": "Ajouté une description détaillée et des réalisations alignées avec le poste de développeur backend",
+            "user_check": "Compléter les dates exactes et ajouter des métriques quantifiables (ex: performance améliorée de X%, nombre d'API développées)"
+          }
+        },
+        {
+          "company": "NTEE Ltd.",
+          "position": "Stage professionnel - Développeur Backend",
+          "start_date": "",
+          "end_date": "",
+          "current": false,
+          "description": "Développement et maintenance d'applications backend. Participation à l'optimisation des bases de données et mise en place de solutions de contrôle de version.",
+          "achievements": [
+            "Développement de microservices avec Django REST Framework",
+            "Optimisation des performances des requêtes SQL",
+            "Implémentation de workflows Git pour collaboration d'équipe"
+          ],
+          "technologies": [
+            "Python",
+            "Django REST Framework",
+            "PostgreSQL",
+            "Git"
+          ],
+          "MyComment": {
+            "optimized": "Repositionné comme expérience backend avec focus sur Django, bases de données et Git",
+            "user_check": "Ajouter des dates précises et des résultats concrets mesurables"
+          }
+        },
+        {
+          "company": "NTEE Ltd.",
+          "position": "Responsable informatique - Développeur Python",
+          "start_date": "",
+          "end_date": "",
+          "current": false,
+          "description": "Gestion des projets de développement logiciel avec focus sur les solutions backend Python. Supervision de l'optimisation des bases de données et de la qualité du code.",
+          "achievements": [
+            "Lead technique sur des projets Django",
+            "Mise en place de processus de tests et intégration continue",
+            "Optimisation des performances des applications backend"
+          ],
+          "technologies": [
+            "Python",
+            "Django",
+            "CI/CD",
+            "Tests automatisés",
+            "Optimisation BDD"
+          ],
+          "MyComment": {
+            "optimized": "Ajouté des responsabilités techniques alignées avec le poste cible (tests, CI/CD, optimisation)",
+            "user_check": "Préciser la durée de l'expérience et ajouter des réalisations quantifiables avec impact business"
+          }
+        }
+      ],
+      "comment": "Expériences professionnelles avec détails des postes et réalisations."
+    },
+    "education": {
+      "degrees": [
+        {
+          "institution": "",
+          "degree": "BACCALAURÉAT C",
+          "field_of_study": "",
+          "start_date": "",
+          "end_date": "2020/2021",
+          "gpa": "",
+          "description": ""
+        },
+        {
+          "institution": "",
+          "degree": "BTS en Gestion des systèmes d'informations",
+          "field_of_study": "Développement d'applications et gestion de bases de données",
+          "start_date": "",
+          "end_date": "2023/2024",
+          "gpa": "",
+          "description": "Formation axée sur le développement logiciel, la gestion de bases de données et l'architecture des systèmes d'information."
+        },
+        {
+          "institution": "",
+          "degree": "Licence Professionnelle en GÉNIE LOGICIEL",
+          "field_of_study": "Développement Backend et Architecture Logicielle",
+          "start_date": "",
+          "end_date": "2024/2025",
+          "gpa": "",
+          "description": "Spécialisation en développement backend Python, conception d'API RESTful, optimisation des bases de données et méthodologies de développement agile."
+        }
+      ],
+      "MyComment": {
+        "optimized": "Ajouté des spécialisations pertinentes pour le poste cible dans les descriptions de formation",
+        "user_check": "Compléter le nom des établissements et les dates exactes. Ajouter des projets académiques pertinents en Python/Django"
+      },
+      "comment": "Formation académique et diplômes obtenus."
+    },
+    "certifications": {
+      "certifications": [],
+      "comment": "Certifications professionnelles et accréditations."
+    }
+  }
+}

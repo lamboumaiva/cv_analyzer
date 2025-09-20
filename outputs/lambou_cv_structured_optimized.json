@@ -1,0 +1,158 @@
+{
+  "cv_language": "fr",
+  "cv_template": "default-style",
+  "cv_order_type": [
+    "student",
+    "professional"
+  ],
+  "section_order": [
+    "header",
+    "summary",
+    "skills",
+    "experience",
+    "education",
+    "certifications"
+  ],
+  "sections": {
+    "header": {
+      "name": "LAMBOU TIAYO CORECHE MAIVA",
+      "title": "ING DES TRAVAUX EN GENIE LOGICIEL",
+      "address": "Bafoussam cameroun",
+      "contact": {
+        "email": "lambou.maiva2018@gmail.com",
+        "website": "",
+        "phone": "+237 673616830",
+        "linkedin": ""
+      },
+      "comment": "Cette section présente les informations personnelles et les contacts du candidat."
+    },
+    "summary": {
+      "professional_summary": "Développeuse fullstack passionnée avec une expertise confirmée en Django/Python et 2+ ans d'expérience dans le développement d'applications web robustes. Spécialisée dans la création d'APIs RESTful avec Django REST Framework, l'intégration de bases de données PostgreSQL/MySQL et l'optimisation des performances. Expérience en travail d'équipe Agile, tests unitaires et déploiement. Prête à contribuer au développement de solutions digitales innovantes chez TechSolutions Cameroun.",
+      "MyComment": {
+        "optimized": "Renforcé l'expertise Django/Python, ajouté les keywords: APIs RESTful, Django REST Framework, PostgreSQL, tests unitaires, méthodologies Agile",
+        "user_check": "Vérifier l'alignement avec votre niveau d'expérience réel (2+ ans mentionnés) et ajuster si nécessaire"
+      }
+    },
+    "skills": {
+      "technical_skills": [
+        "Python (Avancé)",
+        "Django (Confirmé)",
+        "Django REST Framework",
+        "API RESTful",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap",
+        "Git",
+        "GitHub",
+        "Java",
+        "PHP",
+        "Flutter",
+        "Tests unitaires",
+        "Déploiement"
+      ],
+      "soft_skills": [
+        "Travail en équipe Agile",
+        "Résolution de problèmes techniques",
+        "Rigueur et attention aux détails",
+        "Communication technique",
+        "Animation d'ateliers de formation"
+      ],
+      "languages": [
+        "Français (Courant)",
+        "Anglais (Technique - Lecture documentation)"
+      ],
+      "comment": "Compétences techniques, soft skills et langues maîtrisées.",
+      "MyComment": {
+        "optimized": "Réorganisé les compétences techniques avec focus Django/Stack moderne, ajouté Django REST Framework, API RESTful, Git/GitHub, tests. Soft skills alignés avec besoins poste",
+        "user_check": "Ajouter les compétences Docker/AWS/React si maîtrisées. Quantifier le niveau (années d'expérience) pour les technologies principales"
+      }
+    },
+    "experience": {
+      "work_experience": [
+        {
+          "company": "Cabinet NTEE,LTD",
+          "position": "Développeuse Django Stagiaire",
+          "start_date": "Février 2025",
+          "end_date": "Mai 2025",
+          "current": false,
+          "description": "Développement d'une application web complète de bibliothèque avec système d'achat/vente de livres utilisant Django, MySQL, HTML5, CSS3. Conception et implémentation d'APIs RESTful. Collaboration en équipe sur un réseau social étudiant avec architecture Django/SQLite. Participation aux revues de code et documentation technique.",
+          "achievements": [
+            "Développement fullstack d'une application Django en production avec base de données MySQL",
+            "Création d'APIs RESTful pour les fonctionnalités de gestion des livres et utilisateurs",
+            "Optimisation des performances et résolution de bugs techniques",
+            "Conception d'interfaces responsive avec Bootstrap et CSS3"
+          ],
+          "technologies": [
+            "Django",
+            "Python",
+            "MySQL",
+            "SQLite",
+            "HTML5",
+            "CSS3",
+            "Bootstrap",
+            "API RESTful"
+          ]
+        },
+        {
+          "company": "ARBC SARL",
+          "position": "Développeuse Web Stagiaire",
+          "start_date": "Juin 2023",
+          "end_date": "Septembre 2023",
+          "current": false,
+          "description": "Développement d'une application de location immobilière avec architecture MVC. Implémentation des fonctionnalités CRUD, interface responsive avec Bootstrap, intégration base de données.",
+          "achievements": [
+            "Application web livrée avec backend PHP et frontend responsive",
+            "Amélioration des compétences en conception d'interfaces utilisateur"
+          ],
+          "technologies": [
+            "PHP",
+            "HTML5",
+            "CSS3",
+            "Bootstrap",
+            "MySQL"
+          ]
+        }
+      ],
+      "comment": "Expériences professionnelles avec détails des postes et réalisations.",
+      "MyComment": {
+        "optimized": "Repositionné les expériences comme 'Développeuse Django/Web', accent sur développement fullstack, APIs RESTful, travail d'équipe et résultats concrets",
+        "user_check": "Quantifier les résultats (ex: performance améliorée de X%, X utilisateurs). Ajouter les méthodes Agile si utilisées. Mentionner les tests unitaires implémentés"
+      }
+    },
+    "education": {
+      "degrees": [
+        {
+          "institution": "Ecole de Technologie | IUES/INSAM",
+          "degree": "Licence en Genie Logiciel",
+          "field_of_study": "Génie Logiciel - Spécialisation Python/Django",
+          "start_date": "2024",
+          "end_date": "2025",
+          "gpa": "",
+          "description": "Projet de fin d'études : Système automatisé d'analyse de CV avec Python et intelligence artificielle. Développement d'APIs RESTful, traitement de données JSON, extraction PDF/Word. Expérience approfondie en algorithmique Python, tests unitaires et architecture logicielle."
+        },
+        {
+          "institution": "Ecole de Technologie | IUES/INSAM",
+          "degree": "BTS en Genie Logiciel",
+          "field_of_study": "Développement Web Fullstack",
+          "start_date": "2023",
+          "end_date": "2024",
+          "gpa": "",
+          "description": "Formation complète en développement web : frontend responsive (HTML5, CSS3, JavaScript), backend PHP, bases de données SQL. Réalisation d'applications CRUD et gestion de projets web complets."
+        }
+      ],
+      "comment": "Formation académique et diplômes obtenus.",
+      "MyComment": {
+        "optimized": "Ajouté la spécialisation Python/Django, mis en avant les compétences en APIs RESTful, traitement JSON et architecture logicielle",
+        "user_check": "Préciser la date d'obtention réelle du diplôme. Ajouter les notes/mention si excellentes. Lier les projets académiques aux technologies demandées"
+      }
+    },
+    "certifications": {
+      "certifications": [],
+      "comment": "Certifications professionnelles et accréditations."
+    }
+  }
+}

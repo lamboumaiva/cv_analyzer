@@ -1,0 +1,124 @@
+{
+  "cv_language": "fr",
+  "cv_template": "default-style",
+  "cv_order_type": [
+    "student",
+    "professional"
+  ],
+  "section_order": [
+    "header",
+    "summary",
+    "skills",
+    "experience",
+    "education",
+    "certifications"
+  ],
+  "sections": {
+    "header": {
+      "name": "MADJO YEMELI JOËL MULLER",
+      "title": "",
+      "address": "Bafoussam, Kamkop",
+      "contact": {
+        "email": "mullerlime y e@gmail.com",
+        "website": "",
+        "phone": "+237 672133444",
+        "linkedin": ""
+      },
+      "comment": "Cette section présente les informations personnelles et les contacts du candidat."
+    },
+    "summary": {
+      "professional_summary": "Ingénieur en génie logiciel et passionné par l'informatique j'ai acquis plusieurs compétences durant mon parcours académique et professionnel. Toujours prêt a relever de nouveaux défis je suis disponible pour une nouvelle expérience professionnelle dans ce domaine qui me passionne tant.",
+      "comment": "Résumé professionnel du candidat, ses objectifs et sa valeur ajoutée."
+    },
+    "skills": {
+      "technical_skills": [
+        "Développement Web - (JavaScript, Python, Django et Tailwindcss)",
+        "Infographie - (Conception de Flyers, carte de Visite, Logo, CV ...)",
+        "Développement Logiciel - (Java, VB.net, C#)",
+        "Développement Mobile - (Flutter)",
+        "Outils Bureautique - (Microsoft Word, Excel, Powerpoint)",
+        "Maintenance Logicielle - (Installation des Systèmes d'exploitation, mise à jour des Pilotes, Installation d'antivirus et activation des systèmes, Installation de logiciels et autres)",
+        "Montage Vidéo - (Capcut)"
+      ],
+      "soft_skills": [
+        "Community Management - (Facebook, Tiktok, WhatsApp business, LinkedIn, Instagram)"
+      ],
+      "languages": [
+        "Français",
+        "Anglais"
+      ],
+      "comment": "Compétences techniques, soft skills et langues maîtrisées."
+    },
+    "experience": {
+      "work_experience": [
+        {
+          "company": "CFP LA CANADIENNE",
+          "position": "Stage académique",
+          "start_date": "",
+          "end_date": "",
+          "current": false,
+          "description": "",
+          "achievements": [],
+          "technologies": []
+        },
+        {
+          "company": "NTEE Ltd.",
+          "position": "Stage professionnel",
+          "start_date": "",
+          "end_date": "",
+          "current": false,
+          "description": "",
+          "achievements": [],
+          "technologies": []
+        },
+        {
+          "company": "NTEE Ltd.",
+          "position": "Responsable informatique",
+          "start_date": "",
+          "end_date": "",
+          "current": false,
+          "description": "",
+          "achievements": [],
+          "technologies": []
+        }
+      ],
+      "comment": "Expériences professionnelles avec détails des postes et réalisations."
+    },
+    "education": {
+      "degrees": [
+        {
+          "institution": "",
+          "degree": "BACCALAURÉAT C",
+          "field_of_study": "",
+          "start_date": "",
+          "end_date": "2020/2021",
+          "gpa": "",
+          "description": ""
+        },
+        {
+          "institution": "",
+          "degree": "BTS en Gestion des systèmes d'informations",
+          "field_of_study": "",
+          "start_date": "",
+          "end_date": "2023/2024",
+          "gpa": "",
+          "description": ""
+        },
+        {
+          "institution": "",
+          "degree": "Licence Professionnelle en GÉNIE LOGICIEL",
+          "field_of_study": "",
+          "start_date": "",
+          "end_date": "2024/2025",
+          "gpa": "",
+          "description": ""
+        }
+      ],
+      "comment": "Formation académique et diplômes obtenus."
+    },
+    "certifications": {
+      "certifications": [],
+      "comment": "Certifications professionnelles et accréditations."
+    }
+  }
+}

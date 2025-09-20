@@ -1,0 +1,78 @@
+{
+  "cv_language": "en",
+  "cv_template": "default-style",
+  "cv_order_type": ["student", "professional"],
+  "section_order": [
+    "header",
+    "summary",
+    "skills",
+    "experience",
+    "education",
+    "certifications"
+  ],
+  "sections": {
+    "header": {
+      "name": "string",
+      "title": "string",
+      "address": "string",
+      "contact": {
+        "email": "string",
+        "website": "string",
+        "phone": "string",
+        "linkedin": "string"
+      },
+      "comment": "Cette section présente les informations personnelles et les contacts du candidat."
+    },
+    "summary": {
+      "professional_summary": "string",
+      "comment": "Résumé professionnel du candidat, ses objectifs et sa valeur ajoutée."
+    },
+    "skills": {
+      "technical_skills": ["string"],
+      "soft_skills": ["string"],
+      "languages": ["string"],
+      "comment": "Compétences techniques, soft skills et langues maîtrisées."
+    },
+    "experience": {
+      "work_experience": [
+        {
+          "company": "string",
+          "position": "string",
+          "start_date": "string",
+          "end_date": "string",
+          "current": "boolean",
+          "description": "string",
+          "achievements": ["string"],
+          "technologies": ["string"]
+        }
+      ],
+      "comment": "Expériences professionnelles avec détails des postes et réalisations."
+    },
+    "education": {
+      "degrees": [
+        {
+          "institution": "string",
+          "degree": "string",
+          "field_of_study": "string",
+          "start_date": "string",
+          "end_date": "string",
+          "gpa": "string",
+          "description": "string"
+        }
+      ],
+      "comment": "Formation académique et diplômes obtenus."
+    },
+    "certifications": {
+      "certifications": [
+        {
+          "name": "string",
+          "issuer": "string",
+          "date_obtained": "string",
+          "expiry_date": "string",
+          "description": "string"
+        }
+      ],
+      "comment": "Certifications professionnelles et accréditations."
+    }
+  }
+}
